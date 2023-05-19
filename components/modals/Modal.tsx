@@ -164,7 +164,6 @@ const Modal: React.FC<ModalProps> = ({
 												disable={disable}
 												label={secondaryActionLabel}
 												onClick={handleSecondaryAction}
-												icon={IoMdClose}
 											/>
 										)}
 									<Button
