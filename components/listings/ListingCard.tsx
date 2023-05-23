@@ -68,7 +68,10 @@ const ListingCard: React.FC<ListingCardProps> = ({
 		return `${format(start, "PP")} - ${format(end, "PP")}`;
 	}, [reservation]);
 	return (
-		<div onClick={() => {}} className="col-span-1 cursor-pointer group">
+		<div
+			onClick={() => router.push(`/listings/${data.id}`)}
+			className="col-span-1 cursor-pointer group"
+		>
 			<div
 				className="
                 aspect-square
